@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>Заполните данные о клиенте!</h1>
+        <div class="list-inputs">
+            <input type="text" id="input-firstName" placeholder="Имя" required>
+            <input type="text" id="input-secondName" placeholder="Фамилия" required>
+            <input type="text" id="input-fatherName" placeholder="Отчество" required>
+            <input type="tel" id="input-phone" placeholder="Телефон" required>
+            <input type="date" id="input-dateBorn" placeholder="Дата рождения" required>
+            <input type="email" id="input-mail" placeholder="Почта" required>
+        </div>
+        <button class="send-button" id="send-btn">Отправить</button>
+        <button class="reset-button" id="reset-btn">Сбросить</button>
+        <div class="card">
+            <p id="p-firstName"></p>
+            <p id="p-secondName"></p>
+            <p id="p-fatherName"></p>
+            <p id="p-phone"></p>
+            <p id="p-dateBorn"></p>
+            <p id="p-mail"></p>
+        </div>
+    </div>
+
+
+</body>
+<script src="main.js"></script>
+
+</html>
